@@ -52,11 +52,9 @@ ul li:hover {
 }
 footer .icons a i {
   color: #009ad8;
-}
-footer .icons a {
   transition: color 700ms, scale 700ms;
 }
-footer .icons a:hover {
+footer .icons a:hover i {
   color: white;
   scale: 1.1;
 }
@@ -71,6 +69,10 @@ footer .icons a:hover {
   padding: 25px;
   text-align: center;
   margin: 20px 0;
+  transition: scale 700ms;
+}
+.weather-card:hover {
+  scale: 1.06;
 }
 
 .location {
